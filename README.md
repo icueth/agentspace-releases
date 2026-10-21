@@ -52,7 +52,7 @@ worker ทุกตัวคือ CLI ตัวจริงใน pane ขอ�
 
 [Alice](https://github.com/icueth/alice) จำการตัดสินใจพร้อมเหตุผล บั๊กที่เคยแก้ (อาการ สาเหตุ วิธีแก้) และวิธีทำงานต่าง ๆ ไว้ให้ agent ค้นก่อนตอบ งานเมื่อวานหรือเมื่อเดือนก่อน agent ตัวใหม่ก็รู้ ไม่ต้องเล่าใหม่ทุกครั้ง
 
-- มี Alice ในตัวแอปและเปิดให้อัตโนมัติ ความจำเก็บอยู่ในเครื่องของคุณ ถ้าคุณใช้ Alice อยู่แล้ว AgentSpace จะใช้ตัวเดิมของคุณ
+- มี Alice ในตัวแอปและเปิดให้อัตโนมัติ (Alice ในตัวรองรับ Mac ชิป Apple Silicon) ความจำเก็บอยู่ในเครื่องของคุณ ถ้าคุณใช้ Alice อยู่แล้ว AgentSpace จะใช้ตัวเดิมของคุณ
 - Claude Code และ Codex ใช้ความจำชุดเดียวกัน
 - Alice เป็นโอเพนซอร์ส: <https://github.com/icueth/alice>
 
@@ -116,7 +116,7 @@ repo นี้เก็บไฟล์ติดตั้งและหน้า
 **AgentSpace is an AI team that does the work for you, end to end.** You talk to one lead. It splits the work into tasks on a board, opens Claude Code and Codex workers in panes, assigns the tasks, reviews the results and reports back. When it needs your decision, the question shows as a card you click to answer.
 
 - **Notes:** rules and credentials every agent knows, written once.
-- **Alice long-term memory:** decisions and bug fixes, remembered across days and sessions. Built in, stored on your Mac, and open source at [github.com/icueth/alice](https://github.com/icueth/alice).
+- **Alice long-term memory:** decisions and bug fixes, remembered across days and sessions. Built in (Apple Silicon), stored on your Mac, and open source at [github.com/icueth/alice](https://github.com/icueth/alice).
 - **Continuous work:** panes come back after a quit or a reboot and resume their own conversation, the Mac stays awake while agents work, and the board flags stalled workers.
 - **Thai or English UI.**
 - **In-app updates:** the version label at the bottom-left shows a new release; one click and the app restarts as the new version.
